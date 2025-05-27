@@ -1,10 +1,14 @@
-<script>
+<script lang="ts">
+	import TopBar from "$lib/components/TitleBar.svelte";
+	import NavBar from "$lib/components/NavBar.svelte";
 	// for later
 </script>
 
+<TopBar />
+<NavBar />
 <slot />
 
-<!-- this is where your pages go inside 💕 -->
+<!-- Pages come here -->
 
 <style global>
 	@import "../lib/styles/color.css";
